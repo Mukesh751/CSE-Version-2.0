@@ -17,11 +17,12 @@ import StudentSection from './components/pages/StudentSection/StudentSection';
 import Activities from './components/pages/Activities/Activities';
 import Placements from './components/pages/PlacementStatistics/PlacementStatistics';
 import ContactUs from './components/pages/ContactInformation/ContactInformation';
-
+import MyCarousel from './components/pages/Carousel/MyCarousel';
 function App() {
   return (
     <Router>
       <Navbar />
+      <MyCarousel />
       <Switch>
         <Route path="/" exact component={Home} />
         <Route path="About" component={About} />
